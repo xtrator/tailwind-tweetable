@@ -1,8 +1,15 @@
+import { Routes, Route } from "react-router-dom"
+import Home from "./routes/Home"
+import Login from "./routes/Login"
+import Profile from "./routes/Profile"
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
-    </div>
+    <Routes>
+      <Route path={"/"} element={<Home/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/profile" element={<Profile/>}/>
+    </Routes>
   )
 }
 
