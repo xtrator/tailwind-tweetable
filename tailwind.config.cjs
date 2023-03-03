@@ -13,6 +13,7 @@ module.exports = {
       error: "#DD2E44",
       background: "#EBEEF0",
       "background-2": "#F7F9FA",
+      white: "#FFFFFF",
     },
     extend: {},
   },
