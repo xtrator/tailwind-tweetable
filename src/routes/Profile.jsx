@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../components/page/Nav";
 import Tweets from "../components/tweet/Tweets";
 import avatarUrl from "../assets/images/avatar.png";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
   return (
@@ -22,9 +23,12 @@ export default function Profile() {
               <p className="text-base text-secondary-text">
                 CAL Joined on January 13, 2020
               </p>
-              <button className=" font-light hover:text-primary-hover text-primary hover:border-primary-hover border-primary border rounded-full py-1 px-4 mt-2">
+              <Link
+                to="/profile/edit"
+                className="font-light hover:text-primary-hover text-primary hover:border-primary-hover border-primary border rounded-full py-1 px-4 mt-2"
+              >
                 Edit Profile
-              </button>
+              </Link>
               <div className="flex w-full border-px border-background">
                 <p className="text-xl font-semi hover:text-primary w-full text-center">
                   Tweets
