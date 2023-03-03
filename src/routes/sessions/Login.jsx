@@ -16,8 +16,8 @@ export default function Login() {
               </h2>
               <div className="flex justify-center p-2 bg-white">
                 <form className="flex flex-col items-center w-[300px] gap-2">
-                  <TextInput inputType={"email"} />
-                  <TextInput inputType={"password"} />
+                  <TextInput inputType={"email"}>Email</TextInput>
+                  <TextInput inputType={"password"}>Password</TextInput>
                   <div className="flex flex-col">
                     <button className="bg-primary text-white border border-primary rounded-full px-4 py-2">
                       Submit
