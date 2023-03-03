@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "../components/page/Feed";
 import Nav from "../components/page/Nav";
 
 export default function Home() {
@@ -6,9 +7,9 @@ export default function Home() {
     <>
       <div className="absolute text-primary-hover m-auto">Home</div>
       <div className="flex justify-center">
-        <div className="flex gap-1">
+        <div className="flex">
           <Nav />
-          <section className="">Feed</section>
+          <Feed />
         </div>
       </div>
     </>
