@@ -9,7 +9,12 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="flex">
           <Nav />
-          <Feed />
+          <div>
+            <h2 className="p-4 bg-white text-2xl font-semibold text-center border border-background-2">
+              Home
+            </h2>
+            <Feed />
+          </div>
         </div>
       </div>
     </>
