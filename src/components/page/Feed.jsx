@@ -5,7 +5,7 @@ import Tweets from "../tweet/Tweets";
 
 export default function Feed() {
   return (
-    <div className="bg-white 2xl:w-[800px] sm:w-[600px]">
+    <div className="2xl:w-[800px] sm:w-[600px] flex flex-col gap-1">
       <Compose />
       <Tweets />
     </div>

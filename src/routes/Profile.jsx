@@ -7,15 +7,15 @@ export default function Profile() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="flex">
+        <div className="flex gap-1">
           <Nav />
-          <div className="bg-white 2xl:w-[800px] sm:w-[600px]">
+          <div className="2xl:w-[800px] sm:w-[600px] flex flex-col gap-1">
             <div>
-              <h2 className="p-4 text-2xl font-semibold text-center">
+              <h2 className="p-4 text-2xl font-semibold text-center bg-white">
                 Profile
               </h2>
             </div>
-            <div className="flex flex-col items-center border-1 border-background p-2">
+            <div className="flex flex-col items-center border-1 border-background p-2 bg-white">
               <img className="w-24" src={avatarUrl} />
               <p className="text-xl font-light">Diego Torres</p>
               <p className="text-sm text-secondary-text">@diego</p>

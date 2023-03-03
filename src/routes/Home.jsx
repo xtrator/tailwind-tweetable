@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="flex">
+        <div className="flex gap-1">
           <Nav />
-          <div>
+          <div className="flex gap-1 flex-col">
             <h2 className="p-4 bg-white text-2xl font-semibold text-center">
               Home
             </h2>

@@ -3,7 +3,7 @@ import avatarUrl from "../../assets/images/avatar.png";
 
 export default function Tweet() {
   return (
-    <div className="py-2 px-4">
+    <div className="py-2 px-4 bg-white">
       <div className="flex gap-2">
         <div>
           <img src={avatarUrl} className="w-12"></img>

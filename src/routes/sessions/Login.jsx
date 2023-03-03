@@ -6,7 +6,7 @@ export default function Login() {
     <>
       <>
         <div className="flex justify-center">
-          <div className="flex">
+          <div className="flex gap-1">
             <Nav />
             <div className="bg-white 2xl:w-[800px] sm:w-[600px]">
               <div>
