@@ -6,13 +6,12 @@ import avatarUrl from "../assets/images/avatar.png";
 export default function Profile() {
   return (
     <>
-      <div className="absolute text-primary-hover m-auto">Profile</div>
       <div className="flex justify-center">
         <div className="flex">
           <Nav />
-          <div className="bg-white border border-background-2 2xl:w-[800px] sm:w-[600px]">
+          <div className="bg-white 2xl:w-[800px] sm:w-[600px]">
             <div>
-              <h2 className="p-4 text-2xl font-semibold text-center border border-background-2">
+              <h2 className="p-4 text-2xl font-semibold text-center">
                 Profile
               </h2>
             </div>
